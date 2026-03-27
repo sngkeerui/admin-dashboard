@@ -25,6 +25,20 @@
     grid-row: 2 / 3;
 }
 
+header.dashboard {
+    font-size: 35px;
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 10px;
+}
+
+header.dashboard svg {
+    width: 50px;
+    height: 50px;
+    fill: white;
+}
+
 li {
     list-style-type: none;
     font-size: 25px;
@@ -40,7 +54,6 @@ li svg {
 }
 
 a {
-
     text-decoration: none;
     color: white;
 }
