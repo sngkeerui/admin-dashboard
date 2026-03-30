@@ -17,6 +17,9 @@
     background-color: white;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 60rem 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 #content {
