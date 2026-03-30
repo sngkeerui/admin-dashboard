@@ -42,6 +42,27 @@ header.dashboard svg {
     fill: white;
 }
 
+#header > form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+#header > form svg {
+    width: 30px;
+    height: 30px;
+    fill: black;
+}
+
+#header > form input {
+    width: 80%;
+    background-color: ghostwhite;
+    border: none;
+    padding: 8px;
+    border-radius: 16px;
+}
+
 li {
     list-style-type: none;
     font-size: 25px;
