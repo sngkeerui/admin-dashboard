@@ -59,10 +59,27 @@ header.dashboard svg {
 
 #header > form input {
     width: 80%;
+    height: 50px;
     background-color: ghostwhite;
     border: none;
     padding: 8px;
-    border-radius: 16px;
+    border-radius: 25px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+#header > div button {
+    color: white;
+    background-color: #1992d4;
+    width: 120px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
 }
 
 li {
