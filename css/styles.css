@@ -13,6 +13,10 @@
     background-color: #1992d4;
     grid-row: 1 / 3;
     font-weight: bold;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 #header {
@@ -101,3 +105,12 @@ a {
     color: white;
 }
 
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+ul > li:nth-child(6) {
+    margin-bottom: 50px;
+}
