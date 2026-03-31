@@ -144,3 +144,26 @@ ul > li:nth-child(6) {
 .hello-text > span:last-child {
     font-size: 20px;
 }
+
+.notification {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.notification > img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.notification svg {
+    width: 25px;
+    height: 25px;
+}
+
+.notification span {
+    font-weight: bold;
+}
