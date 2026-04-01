@@ -61,6 +61,10 @@
     box-shadow: 0px 3px 10px rgba(85, 83, 83, 0.5); 
 }
 
+.project-card:hover {
+    transform: translateY(-10px); 
+}
+
 #annoucements {
     grid-row: 1 / 2;
 }
